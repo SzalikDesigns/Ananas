@@ -1,0 +1,33 @@
+<theme>
+<formatVersion>4</formatVersion>
+<include>./../theme.xml</include>
+
+<view name="basic, detailed, video, grid">
+    <text X1="nameLabel" extra="true">
+    <text>X68000</text>
+  </text>
+</view>    
+
+<view name="system">
+  <text name="sys_line1" extra="true">
+	<text>Sharp</text>
+	<fontSize>0.048</fontSize>
+	<origin>0 0</origin>
+	<pos>0.05 0.13</pos>
+	<size>0 0</size>
+  </text> 
+  <text name="sys_line2" extra="true">
+    <text>X1</text>
+	<fontSize>0.16</fontSize>
+	<origin>0 0</origin>
+	<pos>0.05 0.15</pos>
+	<size>0 0</size>
+  </text> 
+  <text name="shortdescription" extra="true">
+   <text>1982  ·  Home Computer</text>
+  </text>
+  <text name="longdescription" extra="true">
+   <text>The X1 is a series of home computers released by Sharp Corporation from 1982 to 1988</text>
+  </text>
+ </view>
+</theme>
